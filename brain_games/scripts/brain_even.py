@@ -1,6 +1,7 @@
 #!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
 
-from brain_games.game1 import check_even
+from brain_games.games.game1 import check_even
+from brain_games.games.flow import flow
 
 
 def start():
@@ -10,7 +11,7 @@ def start():
 
 def main():
     start()
-    check_even()
+    flow(check_even())
 
 
 if __name__ == '__main__':

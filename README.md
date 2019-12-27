@@ -4,4 +4,4 @@
 
 https://travis-ci.com/stanislavglazko/python-project-lvl1.svg?branch=master
 
-
+https://asciinema.org/a/UzVMLBNFZm2qYE6i4gXYdjcFo
