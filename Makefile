@@ -6,3 +6,6 @@ lint:
 
 check: selfcheck test lint
 
+configure:
+	@poetry install
+
