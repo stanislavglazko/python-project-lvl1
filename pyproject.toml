@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stanislavglazko_brain_games"
-version = "0.9.0"
+version = "0.10.0"
 description = ""
 authors = ["stanislavglazko <stanislavglazko@gmail.com>"]
 packages = [
@@ -19,6 +19,7 @@ brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-c = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
 
 [[tool.poetry.source]]
 name = "foo"
