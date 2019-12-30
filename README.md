@@ -11,3 +11,5 @@ https://travis-ci.com/stanislavglazko/python-project-lvl1.svg?branch=master
 <a href="https://asciinema.org/a/Bfb6DlYehHjUKTsO7SioxVQQ5" target="_blank"><img src="https://asciinema.org/a/Bfb6DlYehHjUKTsO7SioxVQQ5.svg" /></a>
 
 <a href="https://asciinema.org/a/yVfBNVPQbcRjeq336WHVT1HAO" target="_blank"><img src="https://asciinema.org/a/yVfBNVPQbcRjeq336WHVT1HAO.svg" /></a>
+
+<a href="https://asciinema.org/a/OheBqhGrsNP3f8ij3pjdfAnd0" target="_blank"><img src="https://asciinema.org/a/OheBqhGrsNP3f8ij3pjdfAnd0.svg" /></a>
