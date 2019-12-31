@@ -10,5 +10,4 @@ install:
   - make configure
 
 script:
-  - make check
-  - pytest
+  - make lint
