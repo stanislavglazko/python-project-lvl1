@@ -7,7 +7,7 @@ test:
 	@poetry run pytest
 
 lint:
-	@poetry run flake8
+	@poetry run flake8 brain_games
 
 selfcheck:
 	@poetry check
