@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "stanislavglazko_brain_games"
-version = "0.11.0"
-description = ""
+version = "0.12.0"
+description = "Brain Games"
 authors = ["stanislavglazko <stanislavglazko@gmail.com>"]
 packages = [
     { include = "brain_games" },
