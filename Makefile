@@ -16,3 +16,5 @@ check: selfcheck test lint
 
 build: check
 	@poetry build
+
+.PHONY: all configure test lint selfcheck check build install
