@@ -1,15 +1,11 @@
-from brain_games.games.flow import flow
-from brain_games.games.game3_gcd import nod
+#!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
 
-
-def start():
-    print('Welcome to the Brain Games!')
-    print('Find the greatest common divisor of given numbers.')
+from brain_games.games.gcd import make_round
+from brain_games.flow import flow
 
 
 def main():
-    start()
-    flow((nod(), nod(), nod()))
+    flow(make_round)
 
 
 if __name__ == '__main__':
