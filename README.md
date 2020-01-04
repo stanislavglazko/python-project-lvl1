@@ -2,12 +2,12 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 
-https://travis-ci.com/stanislavglazko/python-project-lvl1.svg?branch=master
+[![Build Status](https://travis-ci.com/stanislavglazko/python-project-lvl1.svg?branch=master)](https://travis-ci.com/stanislavglazko/python-project-lvl1)
 
 Hello!
-You can play "Brain Games" 
+You can play "Brain Games". 
 There are several videos below.
-They explay how to install the project and play games.
+They explain how to install the project and play games.
 
 Brain Even 
 
