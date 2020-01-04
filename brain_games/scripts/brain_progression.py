@@ -1,11 +1,11 @@
 #!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
 
-from brain_games.games.progression import make_round
+from brain_games.games import progression
 from brain_games.flow import flow
 
 
 def main():
-    flow(make_round)
+    flow(progression)
 
 
 if __name__ == '__main__':

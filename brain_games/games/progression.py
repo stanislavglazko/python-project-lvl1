@@ -1,15 +1,30 @@
+import random
+
+
 def make_round():
-    import random
-    rules = 'What number is missing in the progression?'
     step = random.randint(1, 10)
     first_element = random.randint(1, 10)
     a_progression = []
     for i in range(1, 11):
-        i_element = first_element + (i - 1) * step
+        i_element = str(first_element + (i - 1) * step)
         a_progression.append(i_element)
-    secret_progression = a_progression
     secret_element = random.randint(0, 9)
-    correct_answer = str(a_progression[secret_element])
-    secret_progression[secret_element] = ".."
-    random_number = secret_progression
-    return random_number, correct_answer, rules
+    correct_answer = a_progression[secret_element]
+    a_progression[secret_element] = ".."
+    question = ''
+    for i in a_progression:
+        question = question + i + ' '
+    return question, correct_answer
+
+
+def rules():
+    return 'What number is missing in the progression?'
+
+
+def main():
+    make_round()
+    rules()
+
+
+if __name__ == '__main__':
+    main()

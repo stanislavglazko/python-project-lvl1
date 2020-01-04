@@ -1,25 +1,26 @@
-def flow(make_round):
-    import prompt
+import prompt
+
+
+def flow(game):
     print('Welcome to the Brain Games!')
-    current_question = make_round()
-    print(current_question[2])
+    print(game.rules())
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
     i = 0
-    while i <= 3:
-        if i == 3:
-            print('Congratulations, {}!'.format(name))
-            break
-        print('Question:', current_question[0])
+    while i < 3:
+        round = game.make_round()
+        current_question = round[0]
+        good_answer = round[1]
+        print('Question:', current_question)
         player_answer = prompt.string('Your answer: ')
         player_answer = player_answer.lower()
-        if player_answer == current_question[1]:
-            i = i + 1
-            print('Correct!')
-            current_question = make_round()
-        else:
+        if not player_answer == good_answer:
             print1 = "'{}', is wrong answer ;(.".format(player_answer)
-            print2 = "Correct answer was '{}'.".format(current_question[1])
+            print2 = "Correct answer was '{}'.".format(good_answer)
             print(print1, print2)
             print("Let's try again, {}, !".format(name))
             break
+        i = i + 1
+        print('Correct!')
+        if i == 3:
+            print('Congratulations, {}!'.format(name))
