@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stanislavglazko_brain_games"
-version = "0.13.0"
+version = "0.14.0"
 description = "Brain Games"
 authors = ["stanislavglazko <stanislavglazko@gmail.com>"]
 repository = "https://github.com/stanislavglazko/python-project-lvl1"
