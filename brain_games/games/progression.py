@@ -11,20 +11,9 @@ def make_round():
     secret_element = random.randint(0, 9)
     correct_answer = a_progression[secret_element]
     a_progression[secret_element] = ".."
-    question = ''
-    for i in a_progression:
-        question = question + i + ' '
+    question = " ".join(a_progression)
     return question, correct_answer
 
 
 def rules():
     return 'What number is missing in the progression?'
-
-
-def main():
-    make_round()
-    rules()
-
-
-if __name__ == '__main__':
-    main()

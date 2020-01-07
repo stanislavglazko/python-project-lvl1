@@ -7,7 +7,7 @@ def gcd(a, b):
             a %= b
         else:
             b %= a
-    return str(a + b)
+    return a + b
 
 
 def make_round():
@@ -20,8 +20,3 @@ def make_round():
 
 def rules():
     return 'Find the greatest common divisor of given numbers.'
-
-
-def main():
-    make_round()
-    rules()

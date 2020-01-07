@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stanislavglazko_brain_games"
-version = "0.14.0"
+version = "0.15.0"
 description = "Brain Games"
 authors = ["stanislavglazko <stanislavglazko@gmail.com>"]
 repository = "https://github.com/stanislavglazko/python-project-lvl1"
@@ -16,7 +16,6 @@ prompt = "^0.4.1"
 flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-c = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"

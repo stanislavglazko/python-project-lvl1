@@ -10,7 +10,7 @@ def flow(game):
     while i < 3:
         round = game.make_round()
         current_question = round[0]
-        good_answer = round[1]
+        good_answer = str(round[1])
         print('Question:', current_question)
         player_answer = prompt.string('Your answer: ')
         player_answer = player_answer.lower()
@@ -22,5 +22,5 @@ def flow(game):
             break
         i = i + 1
         print('Correct!')
-        if i == 3:
-            print('Congratulations, {}!'.format(name))
+    else:
+        print('Congratulations, {}!'.format(name))

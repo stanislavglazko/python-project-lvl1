@@ -12,12 +12,3 @@ def make_round():
 
 def rules():
     return 'Answer "yes" if number even otherwise answer "no".'
-
-
-def main():
-    make_round()
-    rules()
-
-
-if __name__ == '__main__':
-    main()
