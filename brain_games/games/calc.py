@@ -8,9 +8,7 @@ def make_round():
     r = (('+', operator.add),
          ('-', operator.sub),
          ('*', operator.mul))
-    operation = random.choice(r)
-    our_operator = operation[0]
-    our_operation = operation[1]
+    our_operator, our_operation = random.choice(r)
     correct_answer = our_operation(first, second)
     random_number = '{} {} {} '.format(first, our_operator, second)
     return random_number, correct_answer
